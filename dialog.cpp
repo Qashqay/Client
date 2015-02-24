@@ -11,7 +11,7 @@ static int i;
 
 Dialog::Dialog(QWidget *parent) :QDialog(parent),ui(new Ui::Dialog)
 {
-    ui->setupUi(this);
+   פûגא ui->setupUi(this);
     this->setWindowFlags(Qt::WindowMinimizeButtonHint);
     ui->pteMessage->installEventFilter(this);
     _sokMany = new QTcpSocket*[SERVER_COUNT];

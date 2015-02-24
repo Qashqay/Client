@@ -8,7 +8,7 @@
 #include <QDebug>
 #include <QFile>
 #include <QFileDialog>
-#include "..\Lab2_server_2\myclient.h"
+#include "..\Server\myclient.h"
 #ifndef SERVER_COUNT
 #define SERVER_COUNT 7
 #endif
